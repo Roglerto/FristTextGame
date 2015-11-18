@@ -1,0 +1,36 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>RobertZork</Name>
+    <Description>&lt;No hay ninguna descripción disponible&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>RobertZork</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="RobertZork.vcxproj" File="RobertZork.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">RobertZork.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Enemy.cpp">Enemy.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Item.cpp">Item.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Map.cpp">Map.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Player.cpp">Player.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.cpp">stdafx.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="World.cpp">World.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Enemy.h">Enemy.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Item.h">Item.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Map.h">Map.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Player.h">Player.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="stdafx.h">stdafx.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="targetver.h">targetver.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="World.h">World.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ReadMe.txt">ReadMe.txt</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
