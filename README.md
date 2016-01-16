@@ -14,3 +14,5 @@ To look the inventary write: inventory.
 2-Logic way to finish the game.
 Follow the next commands:
 south-watch-take-north-east-south-watch-take-north-east-watch-take-west-north-north-drop magazine-north-use movile phone telephone number-end
+
+To play download the folder Game and execute the file "RobertZork.exe"
